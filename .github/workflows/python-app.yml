@@ -38,4 +38,4 @@ jobs:
           poetry run flake8 . --count --exit-zero --max-complexity=10 --statistics
       - name: Run pytest
         run: |
-          poetry run pytest
+          pytest
